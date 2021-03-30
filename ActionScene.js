@@ -138,6 +138,8 @@ class ActionScene extends Phaser.Scene {
             this.music.stop();
             this.victorySound.play();
         }
+
+        // this.cat.body.velocity.normalize().scale(530); функция для нормаллизаци скорости, но мне нравится как работает без неё
     }
 
 
